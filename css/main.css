@@ -1,0 +1,114 @@
+body
+{
+	background-image: url(../img/tlo.jpg);
+	font-family: 'Open Sans', sans-serif;
+	font-size:20px;
+	color:white;
+}
+#container
+{
+	width:1000px;
+	margin:auto;
+}
+
+#logo
+{
+	width:450px;
+	height:50px;
+	text-align:left;
+	padding:10px;
+	font-size: 36px;
+	margin-left:25px;
+	float:left;
+}
+#logo:hover
+{
+	cursor:pointer;
+}
+#zegar
+{
+	float:left;
+	width:450px;
+	font-size:36px;
+	height:50px;
+	padding:10px;
+	margin-right:25px;
+	text-align:left;
+}
+.rectangle
+{
+
+	text-align:center;
+}
+.square
+{
+	float:left;
+	width:50%;
+	text-align:center;
+}
+#content
+{
+	min-height:345px;
+}
+#stopka
+{
+	clear:both;
+	text-align: center;
+}
+.kafelki
+{
+	float:left;
+	width:200px;
+	height:160px;
+	background-color:#3095d3;
+	margin:0px 25px 25px 25px;
+	padding:none;
+
+}
+.kafelki:hover
+{
+	background-color:#2084c2;
+	cursor:pointer;
+}
+.kafelki2
+{
+	height: 160px;
+	width: 400px;
+	padding: none;
+
+}
+#oferta
+{
+	margin-left:0px;
+}
+#cv
+{
+	background-color: #93c748;
+}
+#cv:hover
+{
+	background-color:#82b637;
+	cursor:pointer;
+}
+#kontakt
+{
+	margin-left:0px;
+	background-color: #ee5a32;
+}
+#kontakt:hover
+{
+	background-color: #dd4921;
+	cursor:pointer;
+}
+#gif
+{
+	width:227px;
+	height:230px;
+
+}
+#muzyka
+{
+	position:absolute;
+	right: 50px;
+	bottom: 50px;
+}

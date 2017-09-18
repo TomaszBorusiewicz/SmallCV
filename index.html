@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Portfolio</title>
+    <meta name="description" content="Moje Potrfolio" />
+    <meta name="keywords" content="CV,portfolio" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="css/fontello.css">
+    <!--<link rel="stylesheet" href="css/bootstrap.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/js.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+
+<body onload="odliczanie();start();">
+
+    <div id="container">
+        <div class="rectangle">
+            <div id="logo" onclick="start();">Tomasz Borusiewicz</div>
+            <div id="zegar"></div>
+            <div style="clear: both;"></div>
+        </div>
+        <div class="square">
+            <div class="kafelki" id="omnie" onclick="omnie();"><i class="icon-user"></i><br />O mnie</div>
+            <div class="kafelki" id="oferta" onclick="wyksztalcenie();"><i class="icon-laptop"></i><br /> Co oferuję?</div>
+            <div class="kafelki" id="cv" onclick="cv();"><i class="icon-graduation-cap"></i><br />Curriculum Vitae</div>
+            <div class="kafelki" id="kontakt" onclick="kontakt();"><i class="icon-mail"></i><br />Kontakt</div>
+            <div style="clear:both;"></div>
+            <div class="kafelki2">
+                <p>Talk is cheap. Show me the code!<br />- Linus Torvalds, twórca Linuxa</p>
+            </div>
+
+        </div>
+        <div class="square">
+            <div id="content">Lorem ipsum</div>
+        </div>
+        <div id="stopka">Wszelkie prawa zastrzeżone &amp </div>
+    </div>
+
+
+</body>
+
+
+</html>
